@@ -1,0 +1,6 @@
+[submodule "new-docs"]
+	path = new-docs
+	url = https://github.com/idec-net/new-docs
+[submodule "github-markdown-render"]
+	path = github-markdown-render
+	url = https://github.com/vit1-irk/github-markdown-render
