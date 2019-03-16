@@ -2,6 +2,9 @@
 
 mkdir -p pages
 
+git submodule update --init --recursive
+git submodule foreach git pull origin master
+
 for i in new-docs/*.md
 do
 	name=`basename $i .md`
